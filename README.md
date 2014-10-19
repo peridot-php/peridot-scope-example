@@ -84,7 +84,7 @@ return function($emitter) {
 
     /**
      * We want all suites and their children to have the functionality provided
-     * by WebDriverStart, so we hook into the suite.start event. Suites will pass their child
+     * by WebDriverScope, so we hook into the suite.start event. Suites will pass their child
      * scopes to all child tests and suites.
      */
     $emitter->on('suite.start', function(Suite $suite) use ($webDriverScope) {
