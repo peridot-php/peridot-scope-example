@@ -1,0 +1,19 @@
+{
+    "name": "brian/peridot-scope-example",
+    "description": "\"An example of using Peridot scopes\"",
+    "authors": [
+        {
+            "name": "Brian Scaturro",
+            "email": "scaturrob@gmail.com"
+        }
+    ],
+    "require": {
+        "peridot-php/peridot": "dev-master",
+        "facebook/webdriver": "0.4"
+    },
+    "autoload": {
+      "psr-4": {
+        "Peridot\\Example\\": "src/Example"
+      }
+    }
+}
