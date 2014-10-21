@@ -3,6 +3,8 @@ Peridot Scope Example
 
 This repo demonstrates using custom scopes to mix in test functionality for the [Peridot](https://github.com/peridot-php/peridot) testing framework for PHP.
 
+Read more [here](http://peridot-php.github.io/#scopes).
+
 ##The custom scope
 
 We first create a class that extends `Scope` so we can mix in functionality to our tests:
