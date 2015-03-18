@@ -113,10 +113,10 @@ describe('The home page', function() {
 
 ##Running the tests
 
-You will need a selenium server running, and you will want to run the `web` directory. From the project root:
+You will need a selenium server running, and you will want to run the `web` directory. Thankfully, running selenium is a snap using [webdriver-manager](https://github.com/peridot-php/webdriver-manager). From the project root:
 
 ```
-$ java -jar selenium-server-standalone-2.43.1.jar
+$ vendor/bin/manager start
 ```
 
 then fire up the built-in PHP server:
