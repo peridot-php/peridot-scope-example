@@ -15,5 +15,8 @@
       "psr-4": {
         "Peridot\\Example\\": "src/Example"
       }
+    },
+    "require-dev": {
+        "peridot-php/webdriver-manager": "~1.1"
     }
 }
